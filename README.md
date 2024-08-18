@@ -6,6 +6,6 @@ We introduce **OpenStory++**, a large-scale open-domain dataset focusing on enab
 
 ## TODOs
 - [x] Release dataset
-- [] Release dataset organization code
-- [] Release data process pipeline code
-- [] Release benchmark evaluation code
+- [ ] Release dataset organization code
+- [ ] Release data process pipeline code
+- [ ] Release benchmark evaluation code
