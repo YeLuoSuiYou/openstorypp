@@ -1,4 +1,4 @@
-# openstorypp
+# Openstory++: A Large-scale Dataset and Benchmark for Instance-aware Open-domain Visual Storytelling
 [![arXiv](https://img.shields.io/badge/arXiv-2408.03695-b31b1b.svg)](https://arxiv.org/abs/2408.03695)
 [![Static Badge](https://img.shields.io/badge/Dataset-Huggingface-yellow)](https://huggingface.co/datasets/MAPLE-WestLake-AIGC/OpenstoryPlusPlus)
 
