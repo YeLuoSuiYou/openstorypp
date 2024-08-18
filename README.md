@@ -5,7 +5,7 @@
 We introduce **OpenStory++**, a large-scale open-domain dataset focusing on enabling MLLMs to perform storytelling generation tasks.
 
 ## TODOs
-- [✓] Release dataset
-- [x] Release dataset organization code
-- [x] Release data process pipeline code
-- [x] Release benchmark evaluation code
+- [x] Release dataset
+- [] Release dataset organization code
+- [] Release data process pipeline code
+- [] Release benchmark evaluation code
