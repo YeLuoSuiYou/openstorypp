@@ -1,0 +1,17 @@
+opencv-python-headless
+imgviz
+nltk
+numpy
+supervision
+torch
+webdataset
+inference[yolo-world]
+inference-gpu
+matplotlib
+nltk
+pillow
+torch
+torchvision
+tqdm
+transformers
+zhipuai
