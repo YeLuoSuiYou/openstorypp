@@ -15,3 +15,5 @@ torchvision
 tqdm
 transformers
 zhipuai
+datasets
+yt_dlp
