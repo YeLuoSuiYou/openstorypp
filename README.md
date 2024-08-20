@@ -9,3 +9,13 @@ We introduce **OpenStory++**, a large-scale open-domain dataset focusing on enab
 - [ ] Release dataset organization code
 - [ ] Release data process pipeline code
 - [ ] Release benchmark evaluation code
+
+## Dataset Organization
+
+1. You can use **img2dataset** to organize single image dataset
+
+   example:
+
+   ```bash
+   img2dataset --url_list OpenstoryPlusPlus/unique_v2/part1 --input_format "parquet" --url_col "url" --output_format webdataset --output_folder "single_tar" --processes_count 12 --thread_count 12 --save_additional_columns '["png","json"]'  --image_size 512 --resize_mode="keep_ratio" --enable_wandb False
+   ```
