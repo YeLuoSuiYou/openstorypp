@@ -55,6 +55,7 @@ class YouTubeKeyframeDownloader:
             os.makedirs(frame_path)
 
         self.extract_frames(output_path, frame_path, time_stamps, youtube_id)
+        # Remove the video after extracting frames
         os.remove(output_path)
 
     def parse_timestamp(self, timestamp_str):
@@ -102,7 +103,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--download_path",
         type=str,
-        help="Path to the download videos",
+        help="Path to the save videos",
         default="videos",
     )
     parser.add_argument(
