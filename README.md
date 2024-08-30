@@ -21,7 +21,7 @@ We introduce **OpenStory++**, a large-scale open-domain dataset focusing on enab
    img2dataset --url_list OpenstoryPlusPlus/unique_v2/part1 --input_format "parquet" --url_col "url" --output_format webdataset --output_folder "single_tar" --processes_count 12 --thread_count 12 --save_additional_columns '["png","json"]'  --image_size 512 --resize_mode="keep_ratio" --enable_wandb False
    ```
 
-2. To organize the story dataset as described in the paper, you can use `utilis\download_videos.py` to download videos from YouTube and extract frames for the dataset. Additionally, you can utilize `utilis\organize_story` to properly structure the story dataset.
+2. To organize the story dataset as described in the paper, you can use `utilis\download_videos.py` to download videos from YouTube and extract frames for the dataset. Additionally, you can utilize `utilis\organize_story.py` to properly structure the story dataset.
 
 ## Dataset Process Pipeline
 
